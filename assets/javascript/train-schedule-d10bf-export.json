@@ -1,0 +1,37 @@
+{
+  "-KxUXS8ZU2liGVnVk0fN" : {
+    "dest" : "Exeter",
+    "freq" : "30",
+    "name" : "Seacoast",
+    "time" : "06:00",
+    "timeAdded" : 1509136388779
+  },
+  "-KxUXaXB2GymCYKcZ-O7" : {
+    "dest" : "boston",
+    "freq" : "30",
+    "name" : "Amtrak-NE",
+    "time" : "6:00",
+    "timeAdded" : 1509136427207
+  },
+  "-KxUYNsQ20SjNkDZYK9U" : {
+    "dest" : "New York",
+    "freq" : "120",
+    "name" : "Accela",
+    "time" : "5:30",
+    "timeAdded" : 1509136633432
+  },
+  "-KxU_c_wrk1PlhsZN1pv" : {
+    "dest" : "Sodor bay",
+    "freq" : "120",
+    "name" : "Thomas",
+    "time" : "6:00",
+    "timeAdded" : 1509137222326
+  },
+  "-KxU_hhGxmT7l3fKLvW7" : {
+    "dest" : "coal yard",
+    "freq" : "240",
+    "name" : "percy",
+    "time" : "9:00",
+    "timeAdded" : 1509137243022
+  }
+}
