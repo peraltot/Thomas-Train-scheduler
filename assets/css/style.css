@@ -27,15 +27,6 @@ th, h2 {
     color: lightblue !important;
 }
 
-tr:hover {
-    background: #000 !important;
-}
-
-tr:hover td {
-    background: rgba(105, 105, 105, .2) !important;
-    color: yellow !important;
-}
-
 td {
     font-size: 13px !important;
     font-weight: 80 !important;
@@ -45,22 +36,11 @@ label {
     font-size: 14px;
 }
 
-button{
-    border-color: paleturquoise !important;
-}
-
-.container {
-    width: 100%;
-    max-width: 980px !important;
-    padding: 0px !important;
-}
-
 .jumbotron {
     width: 100%;
     background: rgb(105, 105, 105);
     background: rgba(105, 105, 105, .5);    
     color: #fff;
-    /* text-shadow: 2px 2px 4px #000000;   */
     border: 1px solid paleturquoise !important;
     top:15px;
 }
@@ -72,7 +52,7 @@ button{
 }
 
 .panel-primary{
-    min-height: 500px;
+    padding: 10px;
 }
 
 .panel-primary >.panel-heading {
