@@ -42,6 +42,10 @@ $(document).ready(function () {
 		var time = childSnapshot.val().time;
 		var freq = childSnapshot.val().freq;
 
+		function decrementmin() {
+			location.reload();
+		};
+
 		//CONVERT TRAIN TIME================================================
 		var freq = parseInt(freq);
 		//CURRENT TIME
@@ -68,6 +72,16 @@ $(document).ready(function () {
 			"</td><td id='freqDisplay'>" + childSnapshot.val().freq +
 			"</td><td id='nextDisplay'>" + moment(nextTrain).format("HH:mm") +
 			"</td><td id='awayDisplay'>" + minsAway + ' minutes until arrival' + "</td></tr>");
+
+		counter = clearInterval();
+		counter = setInterval(decrement, 1000);
+		counter = setInterval(decrementmin, 60000);
+
+		function decrement() {
+			var currentTime = moment();
+			$('#currentTime').text(currentTime);
+		};
+
 	});
 
 }); //END DOCUMENT.READY
