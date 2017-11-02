@@ -70,7 +70,7 @@ $(document).ready(function () {
 			"<tr><td id='nameDisplay'>" + childSnapshot.val().name +
 			"</td><td id='destDisplay'>" + childSnapshot.val().dest +
 			"</td><td id='freqDisplay'>" + childSnapshot.val().freq +
-			"</td><td id='nextDisplay'>" + moment(nextTrain).format("HH:mm") +
+			"</td><td id='nextDisplay'>" + moment(nextTrain).format("HH:mm a") +
 			"</td><td id='awayDisplay'>" + minsAway + ' minutes until arrival' + "</td></tr>");
 
 		counter = clearInterval();
