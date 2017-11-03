@@ -65,19 +65,7 @@ label {
     text-shadow: 2px 2px 4px #000000; 
 }
 
-.panel-title, th, h2 {
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.panel-body, .panel-heading {
-    padding: 7px !important;
-}
-
 .milTime {
     font-size: 11px !important;
     line-height: 0px !important;
-}
-
-#freqDisplay, #nextDisplay {
-    text-align: center !important;
 }
